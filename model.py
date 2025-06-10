@@ -1,7 +1,7 @@
 import random
 import numpy as np
 import matplotlib.pyplot as plt
-
+# complete script
 # modify the below parameters to build a bacterial genomic model to construst a model with the below described parameters
 
 repeats_percent = 0.5 #direct/inverted repeat percent
