@@ -36,7 +36,7 @@ This project investigates how different DNA repeat configurations (direct, inter
 - `fitness_function`: Normal/Exponential distribution
 
 ## Results Interpretation
-### Null Model Dynamics (Fig 4)
+### Null Model Dynamics 
 - Rapid convergence to 50-50 strand distribution
 - Demonstrates baseline evolutionary pressure from unconstrained inversions
 
@@ -47,7 +47,7 @@ This project investigates how different DNA repeat configurations (direct, inter
 | 25            | Moderate              | Medium              |
 | 50            | Low                   | High                |
 
-**Critical Finding**: Higher penalty limits permit larger inversions while maintaining ancestral strand bias patterns [2][3]
+**Critical Finding**: Higher penalty limits permit larger inversions while maintaining ancestral strand bias patterns 
 
 ## Future Directions
 Planned model extensions:
@@ -55,8 +55,6 @@ Planned model extensions:
 2. Transcription-replication collision modeling
 3. Horizontal gene transfer simulations
 
-## Contributing
-Contributions welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 MIT License - see [LICENSE](https://github.com/sayeraselvan/Data-science-minor-project/blob/main/LICENSE.md) for details.
