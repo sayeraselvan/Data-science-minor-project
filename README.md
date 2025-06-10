@@ -32,7 +32,7 @@ This project investigates how different DNA repeat configurations (direct, inter
 
 
 **Key Configurable Parameters** (via `config.yaml`):
-- `inversion_disparity_limit`: 10/25/50 (Fig 5-7)
+- `inversion_disparity_limit`: 10/25/no-limit
 - `repeat_distribution`: Random/Clustered
 - `fitness_function`: Normal/Exponential distribution
 
@@ -46,7 +46,7 @@ This project investigates how different DNA repeat configurations (direct, inter
 |---------------|-----------------------|---------------------|
 | 10            | High                  | Low                 |
 | 25            | Moderate              | Medium              |
-| 50            | Low                   | High                |
+| no-limit      | Low                   | High                |
 
 **Critical Finding**: Higher penalty limits permit larger inversions while maintaining ancestral strand bias patterns 
 
