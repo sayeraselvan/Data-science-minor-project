@@ -1,4 +1,5 @@
-# Bacterial Genome Inversion Model: Impact of DNA Repeats on Gene-Strand Bias
+# Modelling the impact of DNA sequence repeats on gene inversions and gene-strand bias in bacteria
+
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com/sayeraselvan/Data-science-minor-project)
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)
