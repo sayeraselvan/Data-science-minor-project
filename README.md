@@ -6,7 +6,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/sayeraselvan/Data-science-minor-project/blob/main/LICENSE.md)
 
 A computational model simulating how DNA sequence repeats influence gene inversions and strand bias in bacterial genomes.
-![Fig 1: Graphical representation of the built bacterial genome model]([https://github.com/sayeraselvan/Data-science-minor-project/blob/main/model.png])
 
 ## Abstract
 This project investigates how different DNA repeat configurations (direct, inter-inverted, intra-inverted) affect gene-strand bias through inversion events. The model demonstrates:
