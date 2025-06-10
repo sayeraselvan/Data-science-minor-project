@@ -2,11 +2,22 @@ import random
 import numpy as np
 import matplotlib.pyplot as plt
 
+# modify the below parameters to build a bacterial genomic model to construst a model with the below described parameters
+
+repeats_percent = 0.5 #direct/inverted repeat percent
+repeats = 2500 #number of repeat pairs
+inter_replicore_on = 0.67 #among the repeats, the percentage of inter-replicore repeats
+intra_replicore_on = 1 - inter_replicore_on # 1 - inter replicore repeats is the intra replicore repeats
+genes = 4000 # number of genes
+replicore = 0.8 #inital gene strand bias
+generations = 10000 #number of evolutionary generations - given that a random repeat pair is chosen for inversion in every generation
+
+Run = 17 #random number generator
+
 my_str = []
 repeats_str = []
 repeats_str1 = []
 repeats_str2 = []
-repeats_percent = 0.5
 gene_str = []
 gene_str_1half = []
 gene_str_2half = []
@@ -19,16 +30,9 @@ inter_on_repeats = []
 intra_on_repeats = []
 leading = []
 lagging = []
-repeats = 2500
-inter_replicore_on = 0.67
-intra_replicore_on = 1 - inter_replicore_on
-genes = 4000
-replicore = 0.8
-generations = 10000
 first_element = 1
 mid_element = int((2*repeats + genes)/2 + 1)
 last_element = 2*repeats + genes
-Run = 17
 
 def make_str(type):
     for i in range(1, int(repeats)+1):
